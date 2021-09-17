@@ -1,0 +1,1100 @@
+.row, .col-sm {
+  padding: 0px;
+  margin: 0px;
+}
+
+#header {
+  justify-content: space-around;
+  position: absolute;
+  display: flex;
+  top: 3px;
+  z-index: 7000;
+  width: 100%;
+  height: 70px;
+}
+#header .head {
+  height: 40px;
+}
+#header .logo {
+  margin-right: 200px;
+  margin-top: -15px;
+}
+#header .logo .label {
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-weight: bold;
+}
+#header .logo .caption {
+  font-style: italic;
+  margin-left: -8px;
+  margin-top: -13px;
+  font-weight: bold;
+}
+
+#body {
+  position: relative;
+  max-width: 100%;
+}
+#body img {
+  max-width: 100%;
+  height: 670px;
+}
+#body::after {
+  content: "";
+  position: absolute;
+  z-index: 6000;
+  left: 0%;
+  width: 100%;
+  height: 670px;
+  background-color: rgba(3, 3, 3, 0.2);
+}
+#body .lab {
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  z-index: 7000;
+  top: 50%;
+  left: 17%;
+  color: white;
+  text-shadow: 0px 1px 4px black;
+}
+
+#form {
+  position: absolute;
+  z-index: 7000;
+  top: 20%;
+  animation-name: eben;
+  animation-duration: 3s;
+  transition: all 1s;
+  left: 33%;
+  width: 35% !important;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+#form .radmin {
+  font-weight: bold;
+}
+#form label {
+  font-size: 30px;
+}
+#form .login {
+  font-size: 25px;
+}
+#form input {
+  border-radius: 20px;
+  outline: none;
+}
+
+.recfo {
+  font-size: 25px;
+}
+
+#signform {
+  position: absolute;
+  z-index: 7000;
+  top: 20%;
+  animation-name: eben;
+  animation-duration: 3s;
+  transition: all 1s;
+  left: 5%;
+  width: 90% !important;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+#signform .radmin {
+  font-weight: bold;
+  font-size: 30px;
+}
+#signform label {
+  font-size: 17px;
+}
+#signform .login {
+  font-size: 25px;
+}
+#signform input {
+  border-radius: 20px;
+  outline: none;
+  width: 100%;
+}
+
+#messageplate {
+  position: absolute;
+  z-index: 7000;
+  top: 38%;
+  font-size: 20px;
+  animation-name: eben;
+  animation-duration: 3s;
+  transition: all 1s;
+  left: 35%;
+  width: 30% !important;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+
+#messageplate1 {
+  position: absolute;
+  z-index: 7000;
+  top: 38%;
+  font-size: 20px;
+  animation-name: eben;
+  animation-duration: 3s;
+  transition: all 1s;
+  left: 35%;
+  width: 30% !important;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+
+.reveal {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: -30px;
+}
+
+.reveal2 {
+  position: absolute;
+  margin-top: 17px;
+  margin-left: -30px;
+}
+
+#recform {
+  position: absolute;
+  z-index: 7000;
+  top: 20%;
+  animation-name: eben;
+  animation-duration: 3s;
+  transition: all 1s;
+  left: 33%;
+  width: 35% !important;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+}
+#recform .radmin {
+  font-weight: bold;
+}
+#recform label {
+  font-size: 30px;
+}
+#recform .login {
+  font-size: 25px;
+}
+#recform input {
+  border-radius: 20px;
+  outline: none;
+}
+#recform .recov {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@keyframes eben {
+  0% {
+    transition: 1s all;
+    opacity: 0.4;
+  }
+}
+#dashboard {
+  max-width: 100%;
+  height: 670px;
+  background-color: #e1e4e2;
+}
+#dashboard .uppanel {
+  width: 100%;
+  position: fixed;
+  height: 88px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+#dashboard .uppanel .dashlabel {
+  letter-spacing: 5px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: -15px;
+}
+#dashboard .uppanel .dashcaption {
+  font-style: italic;
+  margin-left: -8px;
+  margin-top: -13px;
+  font-weight: bold;
+}
+#dashboard .nav {
+  margin-top: -10px;
+  margin-left: 300px;
+}
+#dashboard .nav button {
+  margin-left: 20px;
+  font-size: 20px;
+  animation-name: eben;
+  animation-duration: 3s;
+  transition: all 1s;
+}
+#dashboard .nav .popmenu {
+  margin-right: 20px;
+}
+#dashboard .nav .popmenu i {
+  font-size: 35px;
+  margin-top: 15px;
+  animation-name: eben;
+  animation-duration: 3s;
+  transition: all 1s;
+}
+#dashboard .leftpanel {
+  width: 20%;
+  position: fixed;
+  top: 90px;
+  height: 580px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+#dashboard .leftpanel p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 65px;
+}
+
+.userlog {
+  position: absolute;
+  left: 35%;
+  font-size: 25px;
+}
+
+.logout {
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.rightpanel {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed !important;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  z-index: 0 !important;
+  top: 90px;
+  left: 20%;
+  height: 580px;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+.rightpanel .hidemenu {
+  width: 200px;
+  right: 13%;
+  top: 10%;
+  position: fixed;
+  z-index: 22000 !important;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.rightpanel .hidemenu button {
+  color: white !important;
+  padding-right: 50px;
+}
+.rightpanel #userhere {
+  margin-top: 220px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rightpanel #userhere div {
+  margin-bottom: 40px;
+  margin-right: 15px;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: 0px;
+  width: 45%;
+  height: 50px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+}
+
+.propic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-bottom: 70px;
+}
+
+#changepp {
+  position: absolute;
+  top: 75%;
+  margin-bottom: 30px;
+  left: 10%;
+}
+
+nav {
+  position: absolute;
+}
+
+#userbook {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+#userbook .bookc {
+  min-width: 50%;
+  height: 300px;
+}
+#userbook div {
+  font-weight: bold;
+  font-size: 20px;
+}
+#userbook .bookhold {
+  transition: all 3s;
+}
+#userbook .bookhold:hover {
+  transform: scale(1.2);
+  transition: all 3s;
+}
+
+#favbk {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+#favbk .favbc {
+  min-width: 20% !important;
+  height: 300px;
+}
+#favbk div {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#book {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+#book .bookcov {
+  min-width: 20% !important;
+  height: 300px;
+}
+#book div {
+  font-weight: bold;
+  font-size: 20px;
+}
+#book .hold {
+  transition: all 3s;
+  max-width: 100%;
+}
+#book .hold:hover {
+  opacity: 0.4;
+  transition: all 3s;
+}
+
+.iread {
+  min-width: 100%;
+  height: 570px;
+  position: absolute;
+  left: 0%;
+  top: 0px;
+}
+
+.resp {
+  padding: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  min-width: 100% !important;
+  text-align: justify;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+.resp label {
+  font-weight: bold;
+  font-size: 20px;
+}
+.resp .id {
+  font-size: 20px;
+}
+
+.reply {
+  width: 100% !important;
+}
+.reply .messagebox {
+  max-width: 50% !important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  height: 200px;
+  font-size: 20px;
+  outline: none;
+}
+.reply label {
+  font-weight: bold;
+  font-size: 20px;
+}
+.reply span {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.very {
+  width: 100%;
+}
+.very .isbn {
+  max-width: 70% !important;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#comingbook {
+  width: 60% !important;
+  margin-top: 90px;
+  margin-left: -25%;
+}
+#comingbook .comingbookc {
+  min-width: 20% !important;
+  height: 300px;
+}
+#comingbook div {
+  font-weight: bold;
+  font-size: 20px;
+}
+#comingbook .comingbookhold {
+  width: 50%;
+  transition: all 3s;
+}
+#comingbook .comingbookhold:hover {
+  transform: translateX(10px);
+  margin-top: 20px;
+  transition: all 3s;
+}
+
+#allbooks {
+  min-width: 100%;
+}
+#allbooks .bookser {
+  min-width: 75%;
+}
+#allbooks .searchit {
+  font-size: 20px;
+  position: absolute;
+  left: 67%;
+  top: 7%;
+}
+
+.payment {
+  width: 40%;
+  height: 300px;
+  position: absolute;
+  left: 30%;
+  top: 25%;
+  padding: 10px;
+  box-shadow: 0px 0px 4px;
+  background-color: white;
+}
+.payment div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.payment p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.payment input {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.payment .buts {
+  margin-top: 0px;
+}
+.payment span {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.paygate .paypal {
+  width: 100px;
+  height: 100px;
+}
+.paygate .flutter {
+  width: 100px;
+  height: 100px;
+}
+.paygate .remita {
+  width: 100px;
+  height: 100px;
+}
+
+.request {
+  width: 100%;
+}
+.request .reqbook {
+  width: 90%;
+}
+.request .desc {
+  resize: none;
+  outline: none;
+  padding: 20px;
+  font-weight: bold;
+  width: 40%;
+  margin-left: 30%;
+}
+.request p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30%;
+}
+.request button {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 40%;
+}
+
+.feed {
+  position: absolute;
+  right: 5%;
+}
+.feed i {
+  font-size: 25px;
+}
+.feed span {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
+.msg {
+  position: absolute;
+  width: 50%;
+  right: 10%;
+  top: 10%;
+  font-size: 15px;
+  font-weight: bold;
+  height: 300px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.chat {
+  width: 100%;
+}
+.chat .chata {
+  resize: none;
+  outline: none;
+  width: 50%;
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 30%;
+}
+.chat p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 45%;
+}
+.chat button {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 46%;
+}
+
+.thechat {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+.thechat p {
+  font-size: 20px;
+}
+.thechat .admin {
+  margin-top: 30px;
+}
+.thechat .mere {
+  font-weight: bold;
+}
+.thechat .adminre {
+  font-weight: bold;
+}
+
+.ubookcov {
+  width: 15%;
+  height: 200px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+}
+.ubookcov .oyo {
+  margin-top: -40px;
+}
+.ubookcov .oyotwo {
+  margin-top: 30px;
+}
+.ubookcov .oyotwo .book {
+  margin-left: -40px;
+  margin-top: -300px;
+}
+.ubookcov #bookcover {
+  margin-top: -200px;
+}
+.ubookcov img {
+  width: 100%;
+  height: 200px;
+  border-radius: 0px;
+}
+
+.otherdetails {
+  margin-top: 210px;
+  flex-wrap: wrap;
+}
+.otherdetails input {
+  min-width: 45%;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+.otherdetails button {
+  margin-left: 20%;
+}
+
+.addevent {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  height: 20px;
+}
+
+table, th, tr, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, tr, td {
+  text-align: center;
+  font-weight: bold;
+  max-height: 20px !important;
+}
+
+.adhere {
+  width: 60%;
+  height: 200px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding: 20px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.admresp {
+  height: 100px;
+  width: 40%;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.rep {
+  margin-top: 60px;
+  margin-left: -20%;
+}
+
+@media (max-width: 1257px) {
+  #form {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  #recform {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  #messageplate {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  #messageplate1 {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  .payment {
+    min-width: 50%;
+  }
+}
+@media (max-width: 1121px) {
+  #form {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  #recform {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  #messageplate {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  #messageplate1 {
+    min-width: 40%;
+    left: 32%;
+  }
+
+  .leftpanel {
+    min-width: 25%;
+  }
+
+  .payment {
+    min-width: 50%;
+  }
+}
+@media (max-width: 1037px) {
+  #form {
+    min-width: 50%;
+    left: 26%;
+  }
+
+  #recform {
+    min-width: 50%;
+    left: 26%;
+  }
+
+  #messageplate {
+    min-width: 50%;
+    left: 26%;
+  }
+
+  #messageplate1 {
+    min-width: 50%;
+    left: 26%;
+  }
+
+  .leftpanel {
+    min-width: 25%;
+  }
+
+  .payment {
+    min-width: 60%;
+    left: 20%;
+  }
+}
+@media (max-width: 1000px) {
+  #userhere {
+    display: block !important;
+  }
+  #userhere div {
+    min-width: 80%;
+  }
+}
+@media (max-width: 830px) {
+  #form {
+    min-width: 60%;
+    left: 21%;
+  }
+
+  #recform {
+    min-width: 60%;
+    left: 21%;
+  }
+
+  #messageplate {
+    min-width: 60%;
+    left: 21%;
+  }
+
+  #messageplate1 {
+    min-width: 60%;
+    left: 21%;
+  }
+
+  .leftpanel {
+    min-width: 30%;
+  }
+
+  .rightpanel {
+    left: 30%;
+    display: block;
+  }
+
+  .resp {
+    max-width: 80% !important;
+  }
+
+  .payment {
+    min-width: 60%;
+    left: 15%;
+  }
+
+  #book {
+    margin-left: 23%;
+  }
+}
+@media (max-width: 800px) {
+  .leftpanel {
+    min-width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  #form {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  #recform {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  #messageplate {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  #messageplate1 {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  .leftpanel {
+    min-width: 30%;
+  }
+
+  .resp {
+    max-width: 80% !important;
+  }
+
+  .messagebox {
+    min-width: 80% !important;
+  }
+}
+@media (max-width: 600px) {
+  #form {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  #recform {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  #messageplate {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  #messageplate1 {
+    min-width: 80%;
+    left: 10%;
+  }
+
+  .leftpanel {
+    min-width: 30%;
+  }
+
+  .rightpanel {
+    max-width: 70%;
+    position: fixed;
+    text-align: justify;
+    display: block;
+    top: 90px;
+    left: 30%;
+  }
+  .rightpanel .hidemenu {
+    top: 10%;
+  }
+
+  #userhere {
+    display: block !important;
+  }
+  #userhere div {
+    margin-bottom: 40px;
+    margin-right: 15px;
+    padding: 10px;
+    font-size: 20px;
+    outline: none;
+    border: 0px;
+    min-width: 100%;
+    height: 50px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .rem {
+    display: none !important;
+  }
+
+  #userbook {
+    margin-left: -20px;
+  }
+  #userbook .bookc {
+    min-width: 55% !important;
+    margin-left: 20%;
+  }
+  #userbook .bookdetail {
+    margin-left: 20%;
+  }
+
+  .title {
+    margin-left: 10%;
+  }
+
+  #comingbook {
+    min-width: 100%;
+    margin-left: 4%;
+  }
+  #comingbook .comingbookhold {
+    width: 100%;
+  }
+  #comingbook .comingbookc {
+    min-width: 55%;
+    margin-left: 20% !important;
+  }
+  #comingbook .comingbookdetail {
+    margin-left: 20% !important;
+  }
+
+  #favbk {
+    margin-left: -20px;
+  }
+  #favbk .favbc {
+    min-width: 55%;
+    margin-left: 20%;
+  }
+  #favbk .favbdetail {
+    margin-left: 20%;
+  }
+
+  .iread {
+    min-width: 100%;
+    height: 570px;
+    position: absolute;
+    left: 0%;
+    top: 0px;
+  }
+
+  .messagebox {
+    min-width: 100%;
+  }
+
+  .isbn {
+    min-width: 100% !important;
+  }
+
+  #allbooks {
+    min-width: 100%;
+  }
+  #allbooks .bookser {
+    min-width: 100%;
+  }
+
+  .payment {
+    min-width: 70%;
+  }
+
+  #book {
+    margin-left: 10%;
+  }
+
+  .request {
+    width: 100%;
+  }
+  .request .reqbook {
+    width: 90%;
+  }
+  .request .desc {
+    resize: none;
+    outline: none;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .request p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0%;
+  }
+  .request button {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20%;
+  }
+
+  .msg {
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    top: 10%;
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+  }
+
+  .chat {
+    width: 100%;
+    position: absolute;
+  }
+  .chat .chata {
+    resize: none;
+    outline: none;
+    width: 80%;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 5%;
+  }
+  .chat p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+  }
+  .chat button {
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 26%;
+  }
+
+  .thechat {
+    width: 100%;
+  }
+  .thechat p {
+    font-size: 20px;
+  }
+
+  .ubookcov {
+    width: 50%;
+    height: 200px;
+  }
+  .ubookcov img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .otherdetails input {
+    min-width: 100%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+  .otherdetails button {
+    margin-left: 20%;
+  }
+
+  table {
+    width: 60%;
+    height: 20px;
+  }
+
+  .admresp {
+    width: 100%;
+  }
+
+  .rep {
+    margin-top: 20px;
+    margin-left: 0%;
+  }
+}
+
+/*# sourceMappingURL=Rarel.css.map */
